@@ -4,7 +4,7 @@
 This application was created as a part of my Certificate IV in Information Technology (Programming) at South Metropolitan TAFE in 2022. This project implements JavaFX using a [Model-view-controller architecture](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller). The GUI elements were created using [SceneBuilder](https://gluonhq.com/products/scene-builder/).
 
 ## Installation
-Before running this program, you must have JavaFX-SDK and JavaFX-JMODS installed on your system. The latest version of JavaFX is available here on the official website at [https://gluonhq.com/products/javafx/](https://gluonhq.com/products/javafx/) .
+Before running this program, you must have JavaFX-SDK and JavaFX-JMODS installed on your system. The latest version of JavaFX is available here on the official website at [https://gluonhq.com/products/javafx/](https://gluonhq.com/products/javafx/).
 
 Your environment variables must be set up for your user profile (not your system).
 | Environment variable | Location | Example |
