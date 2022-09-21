@@ -14,5 +14,4 @@ Your environment variables must be set up for your user profile (not your system
 
 You need to run the Compile.bat file to compile the source code, the CreateJRE.bat file to create an optimized version of the Java-JDK and JavaFX-SDK, and the Launch.bat file to launch the generated app\WholeWorthsGrocery.jar file using the custom JRE.
 
-Once CreateJRE.bat is run, this program is able to run independently on any Windows system
-as long as you copy the directories "app" and "jre", and Launch.bat
+Once CreateJRE.bat is run, this program is able to run independently on any Windows system as long as you copy the directories "app" and "jre", and Launch.bat. You only need to run Compile.bat and CreateJRE once.
