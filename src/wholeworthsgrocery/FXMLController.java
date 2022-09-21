@@ -81,17 +81,23 @@ public class FXMLController implements Initializable {
             mainTotal = eggSubtotal + milkSubtotal + breadSubtotal;
             
             /* Output subtotals to text fields */
-            txtEggSubtotal.setText(Double.toString(eggSubtotal));
-            txtMilkSubtotal.setText(Double.toString(milkSubtotal));
-            txtBreadSubtotal.setText(Double.toString(breadSubtotal));
+            txtEggSubtotal.setText("$" + Double.toString(eggSubtotal));
+            txtMilkSubtotal.setText("$" + Double.toString(milkSubtotal));
+            txtBreadSubtotal.setText("$" + Double.toString(breadSubtotal));
             
-            txtTotal.setText(Double.toString(mainTotal));
+            txtTotal.setText("$" + Double.toString(mainTotal));
         }
         catch (NumberFormatException ex) {
             Alert alert = new Alert(AlertType.ERROR);
             alert.setTitle("Number format exception");
-			alert.setContentText("You have entered a non integer character in one or more \"Qty\" text fields, it must be removed before calculation.");
-            alert.show();
+	    alert.setHeaderText("Error");
+	    alert.setContentText("You have entered a non integer character in one or more \"Qty\" text fields, it must be removed before calculation.");
+            alert.showAndWait().ifPresent(rs -> {
+	        if (rs == ButtonType.OK) {
+		    System.out.println(ex.toString());
+		    System.out.println("OK button clicked");
+		)
+	    });
         }
     }
     
