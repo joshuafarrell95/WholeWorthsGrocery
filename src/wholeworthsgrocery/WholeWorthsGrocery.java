@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 /**
  * AT1 Activity 4 OOP 2 - Whole Worths Grocery
  *
- * @version 1.00 20 Sep 2022
+ * @version 1.01 21 Sep 2022
  * @author Joshua Farrell
  */
 public class WholeWorthsGrocery extends Application {
