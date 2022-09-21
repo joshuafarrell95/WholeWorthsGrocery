@@ -8,7 +8,9 @@ Before running this program, you must have JavaFX-SDK and JavaFX-JMODS installed
 
 Your environment variables must be set up for your user profile (not your system).
 | Environment variable | Location | Example |
+| ---------- | ---------- | ---------- |
 | PATH_TO_FX | your JavaFX-SDK lib directory | C:\Users\[your username]\Documents\javafx-sdk-18.0.2\lib |
+| ---------- | ---------- | ---------- |
 | PATH_TO_FX_JMOD | your JavaFX-JMODS root directory | C:\Users\[your username]\Documents\javafx-jmods-18.0.2 |
 
 Once CreateJRE.bat is run, this program is able to run independently on any Windows system
