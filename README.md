@@ -1,6 +1,6 @@
 # WholeWorthsGrocery
 
-## Description of project
+## Project Description
 This application was created as a part of my Certificate IV in Information Technology (Programming) at South Metropolitan TAFE in 2022. This project implements JavaFX using a [Model-view-controller architecture](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller). The GUI elements were created using [SceneBuilder](https://gluonhq.com/products/scene-builder/).
 
 ## Installation
