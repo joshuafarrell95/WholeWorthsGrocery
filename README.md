@@ -9,8 +9,8 @@ Before running this program, you must have JavaFX-SDK and JavaFX-JMODS installed
 Your environment variables must be set up for your user profile (not your system).
 | Environment variable | Location | Example |
 | ---------- | ---------- | ---------- |
-| PATH_TO_FX | your JavaFX-SDK lib directory | C:\Users\[your username]\Documents\javafx-sdk-18.0.2\lib |
-| PATH_TO_FX_JMOD | your JavaFX-JMODS root directory | C:\Users\[your username]\Documents\javafx-jmods-18.0.2 |
+| PATH_TO_FX | your JavaFX-SDK lib directory | C:\Users\\[your username]\Documents\javafx-sdk-18.0.2\lib |
+| PATH_TO_FX_JMOD | your JavaFX-JMODS root directory | C:\Users\\[your username]\Documents\javafx-jmods-18.0.2 |
 
 You need to run the Compile.bat file to compile the source code, the CreateJRE.bat file to create an optimized version of the Java-JDK and JavaFX-SDK, and the Launch.bat file to launch the generated app\WholeWorthsGrocery.jar file using the custom JRE.
 
