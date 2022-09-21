@@ -7,8 +7,10 @@ This application was created as a part of my Certificate IV in Information Techn
 Before running this program, you must have JavaFX-SDK and JavaFX-JMODS installed on your system. The latest version of JavaFX is available here on the official website at [https://gluonhq.com/products/javafx/](https://gluonhq.com/products/javafx/) .
 
 Your environment variables must be set up for your user profile (not your system).
-PATH_TO_FX = your JavaFX-SDK lib directory (e.g, C:\Users\[your username]\Documents\javafx-sdk-18.0.2\lib)
-PATH_TO_FX_JMOD = your JavaFX-JMODS root directory (e.g., C:\Users\[your username]\Documents\javafx-jmods-18.0.2)
+| Environment variable | Location | Example |
+| ---------- | ---------- | ---------- |
+| PATH_TO_FX | your JavaFX-SDK lib directory | C:\Users\[your username]\Documents\javafx-sdk-18.0.2\lib |
+| PATH_TO_FX_JMOD | your JavaFX-JMODS root directory | C:\Users\[your username]\Documents\javafx-jmods-18.0.2 |
 
 Once CreateJRE.bat is run, this program is able to run independently on any Windows system
 as long as you copy the directories "app" and "jre", and Launch.bat
