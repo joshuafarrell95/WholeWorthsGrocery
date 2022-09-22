@@ -7,6 +7,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
@@ -86,19 +87,18 @@ public class FXMLController implements Initializable {
             txtBreadSubtotal.setText("$" + Double.toString(breadSubtotal));
             
             txtTotal.setText("$" + Double.toString(mainTotal));
-        }
-        catch (NumberFormatException ex) {
+        } catch (NumberFormatException ex) {
             Alert alert = new Alert(AlertType.ERROR);
             alert.setTitle("Number format exception");
-	    alert.setHeaderText("Error");
-	    alert.setContentText("You have entered a non integer character in one or more \"Qty\" text fields, it must be removed before calculation.");
+			alert.setHeaderText("Error");
+			alert.setContentText("You have entered a non integer character in one or more \"Qty\" text fields, it must be removed before calculation.");
             alert.showAndWait().ifPresent(rs -> {
-	        if (rs == ButtonType.OK) {
-		    System.out.println(ex.toString());
-		    System.out.println("OK button clicked");
-		)
-	    });
-        }
+				if (rs == ButtonType.OK) {
+					System.out.println(ex.toString());
+					System.out.println("OK button clicked");
+				}
+			});
+		}
     }
     
     private double calculateItem(int itemQty) {
